@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc {
+  width: 600px;
+}
+
+@media (max-width: 767px)  {
+  .calc {
+    width: 100vw;
+  }
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
